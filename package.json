@@ -1,0 +1,23 @@
+{
+  "name": "ramdastudents",
+  "version": "1.0.0",
+  "description": "Functional programming with Ramda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --version && tsc -p .",
+    "start": "node dist/main.js",
+    "buildAndStart": "npm run build; npm run start;"
+  },
+  "author": "Enzo Failla",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/ramda": "^0.26.41",
+    "typescript": "^3.8.2"
+  }
+}
