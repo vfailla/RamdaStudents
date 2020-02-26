@@ -2,5 +2,6 @@
 This is a very simple functional programming test with Ramda library.
 
 # Instructions:
-npm install;
-npm run buildAndStart;
+1) npm install;
+2) npm run buildAndStart;
+3) the main page contains the instruction for using this simple poc 
